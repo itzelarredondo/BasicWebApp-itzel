@@ -1,2 +1,2 @@
-# [title of your app]
-[description/guide for your app]
+# [itzel app]
+[ uses information to give user a final decision of what number they are]
