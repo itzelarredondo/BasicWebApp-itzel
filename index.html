@@ -39,7 +39,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	var exampleVariable2 = 0;
 	var exampleVariable3 = 0;
 	
-	function exampleFunction1()
+	function nextpagebutton()
 	{
 		// Assigns values to existing variables based on user input. The parseFloat() function converts string values to numerical values.
     		exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
@@ -153,7 +153,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 		<br><br><br>
 	</form>
       
-  <a href="#pageone" onclick="nextpagebutton;" class="w3-btn w3-grey">next page</a>
+  <a href="next-page.html">Go to Next Page</a>
 <!--This is the 2nd page.-->
 <div id="two" class="w3-container w3-falt-carrot">
 	<h2>Question 2</h2>
@@ -162,9 +162,18 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 <div id="content 3" class="w3-container">
 <p>  pick a number 1-10</p>
 </div>
+
+	<form>
+		<!--Label for first input field.-->
+		<label for="firstInputBox">enter number :</label><br>
+		<!--User input box.-->
+		<input type="number" id="firstInputBox" value="0"><br>
+		
+		<br><br><br>
+	</form>
   		
 		<!--A link that runs a function when clicked and takes the user to a new page.-->
-<a href=“#page2” class="     " onclick="nextpagebutton();">     </a>
+ <a href="next-page.html">Go to Next Page</a>
 </div>
 
     
