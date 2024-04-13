@@ -116,110 +116,67 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 <!--Main HTML body section.-->
 <body>
-  <!--Landing page content.-->
-  <div id="content" class="w3-container">
-  	<!--Header!-->
-	<div id="header" class="w3-container w3-flat-carrot">
-		<h1>Itzel APP</h1>
-	</div>
-	
-	  <p>INTRODUCTION/DESCRIPTION OF APP GOES HERE</p>
-	
-	  <a href="#one" class="w3-btn w3-grey w3-round">Get Started!</a>
-	
-	  <p>The following code has been developed by students and/or researchers of the Freshman Research Initiative Maker Space Stream at The University of Texas at Austin. This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only. Any user of this code does so at their own risk. Members of the Maker Space Stream, FRI, and The University of Texas system are not liable for anything related to this code. THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION!</p>
-  
-  
-  
-<!--FIRST SUBPAGE-->
-<div id="one" class="page">
-	<div id="header2" class="w3-container w3-flat-carrot">
-		<h1>Question 1</h1>
-	</div>
-	
-  <center>
-    
-    	<div id="content2" class="w3-container">
-        	<p>what is your favorite color</p>    
-    	</div>
-	
-	<!--Form element. This allows for user input in HTML.-->
-	<form>
-		<!--Label for first input field.-->
-		<label for="firstInputBox">Enter a color :</label><br>
-		<!--User input box.-->
-		<input type="color" id="firstInputBox" value="0"><br>
-		
-		<br><br><br>
-	</form>
-      
-  <a href="next-page.html">Go to Next Page</a>
-<!--This is the 2nd page.-->
-<div id="two" class="w3-container w3-falt-carrot">
-	<h2>Question 2</h2>
-    		
-		<!--Main content of the page.-->
-<div id="content 3" class="w3-container">
-<p>  pick a number 1-10</p>
-</div>
-
-	<form>
-		<!--Label for first input field.-->
-		<label for="firstInputBox">enter number :</label><br>
-		<!--User input box.-->
-		<input type="number" id="firstInputBox" value="0"><br>
-		
-		<br><br><br>
-	</form>
-  		
-		<!--A link that runs a function when clicked and takes the user to a new page.-->
- <a href="next-page.html">Go to Next Page</a>
-</div>
-
-    
-  </center>
-</div>  
-  
-  
-  
-
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-<!--LAST SUBPAGE-->
-<div id="finalpage" class="page">
-	<div id="finalheader" class="w3-container w3-flat-carrot">
-		<h1>FINAL PAGE TITLE GOES HERE</h1>
-	</div>
-	
-  <center>
-    
-	  <div id="finalcontent" class="w3-container">
-		  <p id="endResults">FINAL PAGE CONTENT GOES HERE</p>
-	  </div>
-  
-  <a class="w3-btn w3-black" onclick="exampleResultsFunction();">Click me!
-    <br>
-    <img id="resultsButtonImg" src="https://i.imgur.com/rZOaHhx.png" width="30" alt="spongebob">
-  </a>
-  <a href="#content" onclick="resetVariables();" class="w3-btn w3-black">Return to Home Page</a>
-    
-  </center>
-</div>
-  
-  
-  
-<!--Footer!-->
-<footer class="w3-bottom w3-container w3-flat-carrot">
-	<p>YOUR NAME (or anything you want) HERE</p>
-</footer>
-</div>
-
+ <div class="row1">
+        <div class="row1__col1 debug">
+        </div>
+        <div class="row1__col2 debug">
+            <h1 class="title">Dog Breed Quiz</h1>
+        </div>
+        <div class="row1__col3 debug">
+        </div>
+    </div>
+    <div class="row2">
+        <div class="row2__col1 debug">
+        </div>
+        <div class="row2__col2 debug">
+        </div>
+        <div class="row2__col3 debug">
+        </div>
+    </div>
+    <div class="row3">
+        <div class="row3__col1 debug">
+        </div>
+        <div class="row3__col2 debug">
+            <script src="main.js"></script>
+            <img id="dogImage" src="" alt="">
+        </div>
+        <div class="row3__col3 debug">
+        </div>
+    </div>
+    <div class="row4">
+        <div class="row4__col1 debug">
+        </div>
+        <div class="row4__col2 debug">
+            <h4>Select the dog's breed:</h4>
+        </div>
+        <div class="row4__col3 debug">
+        </div>
+    </div>
+    <div class="row5">
+        <div class="row5__col1 debug">
+        </div>
+        <div class="row5__col2 debug">
+            <form id="dogForm">
+                <input type="radio" id="first" name="breed" value="">
+                <label for="first" name="breed__label"></label><br>
+                <input type="radio" id="second" name="breed" value="">
+                <label for="second" name="breed__label"></label><br>
+                <input type="radio" id="third" name="breed" value="">
+                <label for="third" name="breed__label"></label><br>
+            </form>
+        </div>
+        <div class="row5__col3 debug">
+        </div>
+    </div>
+    <div class="row6">
+        <div class="row6__col1 debug">
+        </div>
+        <div class="row6__col2 debug">
+            <button class="breed__button">Submit</button>
+        </div>
+        <div class="row6__col3 debug">
+        </div>
+    </div>
 </body>
+
 </html>
